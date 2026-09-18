@@ -4,7 +4,7 @@ Kim Harizman's website. One page, plain HTML/CSS (built originally with Astro; t
 Hosted on Netlify, which republishes automatically whenever this repository changes.
 
 - `index.html` - the page
-- `_astro/` - styling
-- `fonts/` - Cormorant Garamond + Outfit (free Google fonts)
+- `styles.css` - styling
+- `*.woff2` - fonts: Cormorant Garamond + Outfit (free Google fonts)
 - `kim-harizman.jpg` - headshot
 - `favicon.svg` - browser tab icon

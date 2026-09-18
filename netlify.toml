@@ -3,10 +3,10 @@
   publish = "."
 
 [[headers]]
-  for = "/fonts/*"
+  for = "/*.woff2"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 [[headers]]
-  for = "/_astro/*"
+  for = "/styles.css"
   [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+    Cache-Control = "public, max-age=3600"
